@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:main_widgets/utils/function_widgets.dart';
 
 class MainWidgetsPage extends StatelessWidget {
   const MainWidgetsPage({Key? key}) : super(key: key);
@@ -9,15 +10,7 @@ class MainWidgetsPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Main Widgets'),
       ),
-      body: const Center(
-        child: Text('Hello World!',
-          style: TextStyle(
-            color: Colors.black,
-            fontSize: 40.0,
-            fontStyle: FontStyle.italic,
-          ),
-        ),
-      ),
+      body: listview(),
     );
   }
 }
