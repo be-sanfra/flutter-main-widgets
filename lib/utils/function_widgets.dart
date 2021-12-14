@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget container_padding() {
+Widget containerPaddingWidget() {
   return Center(
     child: Container(
       height: 200,
@@ -14,7 +14,7 @@ Widget container_padding() {
   );
 }
 
-Widget container_baseline() {
+Widget containerBaselineWidget() {
   return Center(
     child: Container(
       height: 200,
@@ -29,7 +29,7 @@ Widget container_baseline() {
   );
 }
 
-Widget row() {
+Widget rowWidget() {
   return Row(
     children: [
       Container(height: 50, width: 50, color: Colors.red,),
@@ -39,7 +39,7 @@ Widget row() {
   );
 }
 
-Widget column() {
+Widget columnWidget() {
   return Column(
     children: [
       Expanded(child: Container(height: 50, width: 50, color: Colors.red,), flex: 2,),
@@ -49,7 +49,7 @@ Widget column() {
   );
 }
 
-Widget stack() {
+Widget stackWidget() {
   return Stack(
     children: [
       Container(height: 200, width: 200, color: Colors.red,),
@@ -59,7 +59,7 @@ Widget stack() {
   );
 }
 
-Widget listview() {
+Widget listviewWidget() {
   return ListView(
     children: const [
       ListTile(title: Text('Element 1'),),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:main_widgets/utils/class_widgets.dart';
 import 'package:main_widgets/utils/function_widgets.dart';
 
 class MainWidgetsPage extends StatelessWidget {
@@ -10,7 +11,8 @@ class MainWidgetsPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Main Widgets'),
       ),
-      body: listview(),
+      // body: listviewWidget(),
+      body: const ListviewWidget(),
     );
   }
 }
